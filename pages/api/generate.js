@@ -55,3 +55,4 @@ function generatePrompt(Statement) {
   //   Statement[0].toUpperCase() + Statement.slice(1).toLowerCase();
   return `rate how offensive the word is : ${Statement} from 0 to 100 and explain why`;
 }
+// kutte 
