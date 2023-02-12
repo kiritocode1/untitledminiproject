@@ -25,6 +25,7 @@ export default async function (req, res) {
     return;
   }
 
+  
   try {
     const completion = await openai.createCompletion({
       model: "text-davinci-003",
