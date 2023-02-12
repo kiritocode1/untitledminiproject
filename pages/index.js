@@ -52,7 +52,10 @@ export default function Home() {
           <input type="submit" value="Generate statement" />
         </form>
         <div className={styles.result}>{result}</div>
+
+        <h1 className={styles.result}>I know racism is bad and you should'nt do it , BUUUUUUUUUUUUUUT  </h1>
       </main>
+      
     </div>
   );
 }
